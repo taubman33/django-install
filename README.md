@@ -56,7 +56,7 @@ We'll be using Django as our backend framework for the next few lectures of Unit
   python_version = "3.7"
   ```
 
-  Make sure `python_version` is set to a version that is 3 or greater. If it's set to an older version of Python, then you'd need to change it to the version of Python 3 that's available on your machine. You can check the version number by running `python3 -V` from your terminal. For example, if the version is `3.7.6`, then you'd have to update `python_version="3.7.6"`.
+  Make sure `python_version` is set to a version that is 3 or greater. If it's set to an older version of Python, then you'd need to change it to the version of Python 3 that's available on your machine. You can check the version number by running `python3 -V` from your terminal. For example, if the version is `3.7.6`, then you'd have to update the `python_version` line in the `Pipfile` to `python_version="3.7.6"`.
 
 5. Install django inside your `/tunr_django` folder:
 
@@ -170,5 +170,3 @@ We'll be using Django as our backend framework for the next few lectures of Unit
 13. Finally, navigate to `localhost:8000`. You should see a page welcoming you to Django!
 
   **_If you don't, please file a Github issue on this repo and attach screenshots of all the errors you are getting so an instructor can assist you with setup prior to lecture._**
-
-
