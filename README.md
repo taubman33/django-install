@@ -77,7 +77,21 @@ pipenv install psycopg2-binary
 pipenv run django-admin startproject tunr_django .
 ```
 
-Make sure you put the . on the end! This creates the project in the current directory instead of creating a new subfolder.
+> Make sure you put the . on the end! This creates the project in the current directory instead of creating a new subfolder.
+
+
+Let's break down this command, because there are a few parts to it:
+
+- `django-admin` is the command line interface for interacting with Django. It
+  has a few commands, of which `startproject` is the one to start a new Django
+  project.
+- `tunr_django` is the name of our project. We add `.` after it so that the
+  project is created in the current directory (the default is to create a new
+  Django project in a new director).
+- `pipenv run` is required because we want to use the version of Django that we
+  just installed using pipenv. If we leave off this part of the command, we'll
+  use the version of the Django CLI that is installed globally (if there is
+  one).
 
 8. Let's also create our app:
 
@@ -85,7 +99,7 @@ Make sure you put the . on the end! This creates the project in the current dire
 $ django-admin startapp tunr
 ```
 
-Note: if django-admin doesn't work, you can replace it with python3 manage.py, assuming manage.py is in your current directory.
+Note: if django-admin doesn't work, you can replace it with `python3 manage.py`, assuming `manage.py` is in your current directory.
 
 We've created a django project called `tunr_django`. We've also created an "app" inside of it called `tunr`. `tunr_django` is the base django project, where we handle our routes. `tunr` is where we write our models, controllers, and templates.
 
@@ -146,7 +160,12 @@ DATABASES = {
 python3 manage.py runserver
 ```
 
-`manage.py` contains a lot of management commands for Django. We'll see more later, but [here](https://docs.djangoproject.com/en/2.1/ref/django-admin/) is the full documentation if you are interested in what's going on behind the scenes.
+`manage.py` contains a lot of management commands for Django. We'll see more later, but [here](https://docs.djangoproject.com/en/2.1/ref/django-admin/) is the full documentation if you are interested in what's going on behind the scenes. You can see a list of commands that `manage.py` offers by typing:
+
+```
+python3 manage.py
+```
+
 
 13. Finally, navigate to `localhost:8000`. You should see a page welcoming you to Django!
 
