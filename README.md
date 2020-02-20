@@ -95,7 +95,7 @@ We'll be using Django as our backend framework for the next few lectures of Unit
     use the version of the Django CLI that is installed globally (if there is
     one).
 
-8. Let's also create our app:
+8. Let's also create our app (make sure you're running the following command within your virtual environment):
 
   ```
   $ django-admin startapp tunr
