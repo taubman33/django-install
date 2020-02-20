@@ -8,9 +8,10 @@
 python -V
 ```
 
-If you are **_not_** on a version of Python that is 3 or greater, then you'd have to install Python 3 on your machine by following the rest of the steps in this section. Otherwise, you can skip the rest of this section and move on to the [next section](#setting-up-a-new-django-application).
-
-2. Install Python 3.
+If you are **_not_** on a version of Python that is 3 or greater, then you'd have to install Python3 on your machine. Run the following command from terminal:
+```
+brew install python3
+```
 
 ## Setting Up a New Django Application
 
