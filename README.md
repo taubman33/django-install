@@ -95,15 +95,15 @@ We'll be using Django as our backend framework for the next few lectures of Unit
     use the version of the Django CLI that is installed globally (if there is
     one).
 
-8. Let's also create our app (make sure you're running the following command within your virtual environment):
+8. Let's also create our app (make sure you're running the following command within the virtual environment you created in step 3):
 
   ```
   $ django-admin startapp tunr
   ```
 
-  Note: if django-admin doesn't work, you can replace it with `python3 manage.py`, assuming `manage.py` is in your current directory.
+  Note: if django-admin doesn't work, you can replace it with `python3 manage.py`, assuming `manage.py` is in your current directory. Again, make sure you're running the following command within the virtual environment you created in step 3.
 
-  We've created a django project called `tunr_django`. We've also created an "app" inside of it called `tunr`. `tunr_django` is the base django project, where we handle our routes. `tunr` is where we write our models, controllers, and templates.
+  This step creates an "app" inside of our project repo called `tunr`. `tunr_django` is the base django project, where we handle our routes. `tunr` is where we write our models, controllers, and templates.
 
   We can have many "apps" inside of a django project. This allows us to modularize our code, giving us flexibility and separation of concerns and making our code self-contained.
 
