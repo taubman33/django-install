@@ -32,7 +32,7 @@ We'll be using Django as our backend framework for the next few lectures of Unit
   brew install pipenv
 ```
 
-3. Let's "activate" our virtual environment. Every subsequent command will use the virtual environment we created:
+3. Let's "activate" our virtual environment to ensure every subsequent command will use the virtual environment we created. Run the following command from the project root:
 
   ```
   pipenv shell
