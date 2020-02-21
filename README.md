@@ -172,7 +172,7 @@ We'll be using Django as our backend framework for the next few lectures of Unit
 13. Finally, navigate to `localhost:8000`. You should see a page welcoming you to Django!
 
 ## Submission
-Please open a Github issue on this repo indicating whether or not the installation was successful for you.
+Please open a Github issue on this repo indicating whether or not the installation was successful for you, along with a screenshot of the Django welcome page.
   
   **_If you are running into errors or issues, please file a Github issue on this repo and attach screenshots of all the errors you are getting so an instructor can assist you with setup next week prior to lecture._**
   
