@@ -121,11 +121,9 @@ We'll be using Django as our backend framework for the next few lectures of Unit
   ]
   ```
 
-10. Next, we need to create our database. By default, Django uses sqlite for its database. We'll use pSQL instead, because it's more robust and better for web applications. 
+10. Next, we need to create our database. By default, Django uses sqlite for its database. We'll use postgres instead, because it's more robust and better for web applications. First, make sure postgres is installed on your machine by following [these instructions](https://git.generalassemb.ly/seir-129/sql-intro/blob/master/getting_postgres.md).
 
-Make sure psql is installed on your machine by following [these instructions](https://git.generalassemb.ly/seir-129/sql-intro/blob/master/getting_postgres.md).
-
-In the project root directory, create a new file called `settings.sql`:
+After installing postgres, create a new file called `settings.sql` in the project root directory:
 
   ```
   touch settings.sql
