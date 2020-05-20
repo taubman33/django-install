@@ -1,4 +1,4 @@
-# 2/21 Homework: Set Up a Django Application & Virtual Environment
+Homework: Set Up a Django Application & Virtual Environment
 
 ## Python 3 Installation
 
@@ -178,6 +178,6 @@ Please open a Github issue on this repo indicating whether or not the installati
   
   **_If you are running into errors or issues, please file a Github issue on this repo and attach screenshots of all the errors you are getting so an instructor can assist you with setup next week prior to lecture._**
   
-***Submission Due 2/24 at 10am ET***
+***Submission Due 5/26 at 10am ET***
   
   
