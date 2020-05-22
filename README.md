@@ -121,7 +121,24 @@ We'll be using Django as our backend framework for the next few lectures of Unit
   ]
   ```
 
-10. Next, we need to create our database. By default, Django uses sqlite for its database. We'll use postgres instead, because it's more robust and better for web applications. First, make sure postgres is installed on your machine by running `brew services list`. You should see `postgresql` with a status of 'started' in green letters. If it says 'stopped', run `brew services start postgres`. 
+10. Next, we need to create our database. By default, Django uses sqlite for its database. We'll use postgres instead, because it's more robust and better for web applications. 
+
+- To ensure Postgres is running on your computer, **on macOS** type:
+
+```bash
+brew services list
+```
+
+- To ensure Posgres is running on your computer, **on Linux** type:
+
+```bash
+service postgresql status
+```
+
+(_macOS_) Postgres will only work if you see a service with a `Name` of postgresql and `Status` say `started`
+
+(_Linux_) Postgres will only work if you see a green circle and the words
+"active (running)" somewhere in the output.
 
 After running postgres, create a new file called `settings.sql` in the project root directory:
 
