@@ -135,7 +135,7 @@ brew services list
 service postgresql status
 ```
 
-(_macOS_) Postgres will only work if you see a service with a `Name` of postgresql and `Status` say `started`
+(_macOS_) Postgres will only work if you see a service with a `Name` of postgresql and `Status` say `started` in green. If it is yellow, try running `brew services restart postgresql`. 
 
 (_Linux_) Postgres will only work if you see a green circle and the words
 "active (running)" somewhere in the output.
