@@ -160,6 +160,8 @@ After running postgres, create a new file called `settings.sql` in the project r
   ```
   $ psql -U postgres -f settings.sql
   ```
+  
+ If you are getting a fatal error, try removing the '-U postgres' from the command 
 
 11. Next, we need to connect our app to the database. In `tunr_django/settings.py`, find the `DATABASES` constant dictionary. Let's edit it to look like this:
 
