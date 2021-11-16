@@ -1,4 +1,7 @@
-# Django lessons 1 of 5
+# Django lessons 1 and 2 of 5 - Setting up the app and creating models.
+
+
+
 
 # How to Set Up a Django Application & Virtual Environment
 
@@ -197,7 +200,7 @@ After running postgres, create a new file called `settings.sql` in the project r
 
 ## Next, lets make some models for our data  
 
-## Models (10 min / 0:40)
+## Models 
 
 Let's start working with some data. In Django, we will write out models. Models
 represent the data layer of our application. We store that data in our database.
@@ -241,7 +244,7 @@ fantastic and there are a number of
 [built in field types](https://docs.djangoproject.com/en/2.1/ref/models/fields/#model-field-types)
 that you can use for making very detailed models.
 
-## Migrations (10 min / 0:50)
+## Migrations
 
 In the SQL class, we talked about how schema is enforced on the database side
 when we use SQL databases. But here we are writing our schema on the Python
@@ -301,9 +304,9 @@ created automatically as soon as you insert data into them.
 A set of changes/modifications intended for a database. They can be anything that makes a permanent change - creating columns, creating tables, changing properties, etc.
 </details>
 
-## Break (10 min / 1:00)
 
-### Foreign Keys (10 min / 1:10)
+
+### Foreign Keys 
 
 Let's also start filling out the Song model. We will define the class and then
 add a foreign key. We do so like this:
@@ -360,7 +363,7 @@ If you want to see which migrations have been run already, use the command
 
 
 
-### Admin Console (10 min / 1:20)
+### Admin Console 
 
 Before we get too far, let's also create a superuser for our app. Django has
 authentication (and authorization) right out of the box, so you don't have to
@@ -398,7 +401,7 @@ and get a full admin view where you have CRUD functionality for your model!
 
 Create two Artists here using the interface.
 
-### You Do: Finish the Song model (10 minutes / 1:30)
+## Finish the Song model 
 
 - Add `title`, `album` and `preview_url` fields, then create and run the
   migrations.
