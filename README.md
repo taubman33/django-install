@@ -1,4 +1,4 @@
-# Django lessons 1 and 2 of 5 - Setting up the app and creating models.
+## Django lessons 1 and 2 of 5 - Setting up the app and creating models.
 
 
 
